@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 01 da aula 13 de CSS</title>
+    <style>
+        .panel {
+            width: 300px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            border: 4px black solid;
+            padding: 20px 0px;
+            gap: 8px;
+            justify-content: center;
+        }
+
+        .elemento {
+            width: 50px;
+            height: 50px;
+        }
+
+        .cor-1 {
+            background-color: black;
+        }
+
+        .cor-2 {
+            background-color: blue;
+        }
+
+        .cor-3 {
+            background-color: green;
+        }
+
+        .cor-4 {
+            background-color: red;
+        }
+
+        .cor-5 {
+            background-color: yellow;
+        }
+
+        .elemento:hover {
+            transform: scale(1.5);
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <div class="elemento cor-1"></div>
+        <div class="elemento cor-2"></div>
+        <div class="elemento cor-3"></div>
+        <div class="elemento cor-4"></div>
+        <div class="elemento cor-5"></div>
+        <div class="elemento cor-1"></div>
+        <div class="elemento cor-2"></div>
+        <div class="elemento cor-3"></div>
+        <div class="elemento cor-4"></div>
+        <div class="elemento cor-5"></div>
+    </div>
+</body>
+</html>
